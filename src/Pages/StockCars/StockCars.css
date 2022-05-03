@@ -1,0 +1,33 @@
+.car-container {
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: rgba(7, 99, 61, 0.884);
+    color: white;
+    box-shadow: 5px;
+    margin-right: 24px;
+    margin-left: 24px;
+
+}
+
+.car-container img {
+    border-radius: 5px;
+
+    height: 180px;
+
+}
+
+.car-container p {
+    padding: 20px;
+}
+
+.car-container .button {
+    padding-right: 14px;
+    padding-left: 14px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    font-weight: 700;
+    background-color: rgb(1, 43, 19);
+    color: white;
+    margin-bottom: 3px;
+}
