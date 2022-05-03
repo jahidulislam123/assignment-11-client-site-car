@@ -10,8 +10,9 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
       </Routes>
-      <h2>hii tomra sobai kemon aco </h2>
+      
     </div>
   );
 }
