@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Register.css'
 
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import { toast } from 'react-toastify';
@@ -18,7 +18,8 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification: true});
+      const [updateProfile, updating, updateError] = useUpdateProfile(auth);
     const navigateLogin =()=>{
         Navigate('/login')
     }
@@ -35,7 +36,9 @@ const Register = () => {
         if(email,password){
             
             toast("you are going to be registered");
-            createUserWithEmailAndPassword(email,password);
+          await  createUserWithEmailAndPassword(email,password);
+          await updateProfile({ displayName:name });
+          alert('Updated profile');
             navigate('/login');
         }
                
