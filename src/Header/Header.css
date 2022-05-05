@@ -1,0 +1,17 @@
+.bg-primary-button {
+    background-image: linear-gradient(orange, crimson);
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: wheat;
+
+}
+
+.bg-primary-button-login {
+    background-image: linear-gradient(rgb(161, 8, 110), rgb(112, 9, 196));
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: wheat;
+
+}

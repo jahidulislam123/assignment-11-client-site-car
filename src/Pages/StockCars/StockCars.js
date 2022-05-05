@@ -2,6 +2,7 @@ import React from 'react';
 import './StockCars.css'
 
 const StockCars = ({car}) => {
+    
     const{img,name,quantity,description,price}=car;
     const text=description.slice(0,75);
     return (

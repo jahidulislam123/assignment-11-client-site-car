@@ -14,7 +14,7 @@ const StockCar = () => {
             <h2>The amount of Brands : {cars.length}</h2>
             <div className='container-grid'>
                 {
-                    cars.map(car=><StockCars
+                    cars.slice(0,6).map(car=><StockCars
                     key={car._id}
                     car={car}
                     
