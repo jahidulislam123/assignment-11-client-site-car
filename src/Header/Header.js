@@ -29,7 +29,7 @@ const Header = () => {
       </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
       {
         user ?
         <button className='bg-primary' onClick={handleSignOut}>SignOut</button>
