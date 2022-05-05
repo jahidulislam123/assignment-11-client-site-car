@@ -1,4 +1,5 @@
 import React from 'react';
+import './Register.css'
 
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, Navigate } from 'react-router-dom';
