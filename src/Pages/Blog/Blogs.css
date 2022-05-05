@@ -1,0 +1,17 @@
+.div-container {
+    /* border: 1px solid cadetblue; */
+    border-radius: 5px;
+    padding: 7px;
+
+
+    margin-bottom: 20px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+.all-question-container {
+    background-color: rgb(32, 32, 32);
+
+    padding-top: 19px;
+    padding-bottom: 19px;
+}

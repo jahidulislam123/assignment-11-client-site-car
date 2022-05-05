@@ -3,6 +3,8 @@ import React from 'react';
 import './Footer.css'
 
 const Footer = () => {
+    const today =new Date();
+    const year =today.getFullYear();
     return (
         <div>
              <footer class="site-footer">
@@ -41,7 +43,7 @@ const Footer = () => {
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+            <p class="copyright-text">Copyright &copy; {year} All Rights Reserved by 
          <a href="#">Ford Car</a>.
             </p>
           </div>

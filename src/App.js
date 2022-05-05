@@ -21,6 +21,7 @@ function App() {
         <Route path='/*' element={<NotFound></NotFound>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        
         <Route path='/blogs' element={<RequreAuth><Blogs></Blogs></RequreAuth>}></Route>
       </Routes>
       <Footer></Footer>
