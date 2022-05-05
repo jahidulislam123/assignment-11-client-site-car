@@ -8,6 +8,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import Blogs from './Pages/Blog/Blogs';
 import RequreAuth from './Pages/RequreAuth/RequreAuth';
+import Footer from './Pages/Footer/Footer';
 
 
 function App() {
@@ -21,10 +22,8 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/blogs' element={<RequreAuth><Blogs></Blogs></RequreAuth>}></Route>
-
-        
-        
       </Routes>
+      <Footer></Footer>
       
       
     </div>
