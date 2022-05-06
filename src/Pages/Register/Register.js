@@ -38,7 +38,7 @@ const Register = () => {
             toast("sent a verification email");
           await  createUserWithEmailAndPassword(email,password);
           await updateProfile({ displayName:name });
-          alert('Updated profile');
+        //   alert('Updated profile');
             navigate('/login');
         }
                

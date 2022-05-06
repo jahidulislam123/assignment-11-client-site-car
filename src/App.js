@@ -11,6 +11,8 @@ import RequreAuth from './Pages/RequreAuth/RequreAuth';
 import Footer from './Pages/Footer/Footer';
 import CarDetails from './Pages/CarDetails/CarDetails';
 import ManageInventory from './Pages/ManageInventory/ManageInventory';
+import AddItem from './Pages/AddItem/AddItem';
+
 
 
 
@@ -27,7 +29,9 @@ function App() {
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/carDetails/:carDetailsId' element={<CarDetails></CarDetails>}></Route>
         <Route path='/blogs' element={<RequreAuth><Blogs></Blogs></RequreAuth>}></Route>
-        <Route path='/manageInventory' element={<ManageInventory></ManageInventory>}></Route>
+        <Route path='/manageInventory' element={<RequreAuth><ManageInventory></ManageInventory></RequreAuth>}></Route>
+        {/* <Route path='/manageInventory' element={<ManageInventory></ManageInventory>}></Route> */}
+        <Route path='/addItem' element={<AddItem></AddItem>}></Route>
       </Routes>
       <Footer></Footer>
       {/* <ManageInventory></ManageInventory> */}
