@@ -15,9 +15,9 @@ const ManageInventory = () => {
         <div>
             
                 <h2>there are {cars.length} Car</h2>
-                <div className='all-car'>
+                <div className='container-grid'>
                     {
-                        cars.map(car=> <div className='container '>
+                        cars.map(car=> <div className='container car-container'>
                             <div><img src={car.img} alt="" /></div>
                             <div>
                                 <h2>{car.name}</h2>
