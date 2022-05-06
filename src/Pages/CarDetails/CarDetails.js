@@ -29,7 +29,7 @@ const CarDetails = () => {
          <h4>Quantity: {cars.quantity}</h4>
          <h4>Supplier : {cars.supliar}</h4>
          <p>{cars.description}</p>
-         <button onClick={handleMangeInventory}>Manage Inventory</button>
+         <button className='manage-inventory-button' onClick={handleMangeInventory}>Manage Inventory</button>
 
         
          

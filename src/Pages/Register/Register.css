@@ -13,12 +13,14 @@
 .register-form {
     margin: 0 auto;
     width: 50%;
+    color: white;
 }
 
 .register-container {
-    background-color: rgb(108, 153, 153);
+    background-color: rgb(18, 18, 37);
     margin-bottom: 12px;
     padding-bottom: 12px;
     margin-top: 4px;
     border-radius: 3px;
+    color: white;
 }

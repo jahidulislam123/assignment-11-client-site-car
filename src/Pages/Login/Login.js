@@ -65,7 +65,7 @@ const Login = () => {
 
     return (
         <div className='container register-container w-50 mx-auto'>
-            <h2 className='text-black mt-2 text-center'>Please Login</h2>
+            <h2 className='text-white mt-2 text-center'>Please Login</h2>
            <Form onSubmit={handleSubmit}>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
@@ -85,8 +85,8 @@ const Login = () => {
   </Button>
 </Form>
 {errorElement}
-<p>If you are new <Link to='/register' className='text-black pe-auto text-decoration-none ' onClick={navigateRegister} >Please Register</Link></p>
-<p className='pe-2'>Forget Passsword  ?<button  className='btn btn-link text-black  pe-auto text-decoration-none' onClick={resetPassword}> Reset Password </button></p>
+<p>If you are new <Link to='/register' className='text-white pe-auto text-decoration-none ' onClick={navigateRegister} >Please Register</Link></p>
+<p className='pe-2 '>Forget Passsword  ?<button  className='btn btn-link text-white  pe-auto text-decoration-none' onClick={resetPassword}> Reset Password </button></p>
 <SocialMediaLogin></SocialMediaLogin>
      <ToastContainer/>
         </div>
