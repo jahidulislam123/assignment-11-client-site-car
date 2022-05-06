@@ -35,7 +35,7 @@ const Register = () => {
         console.log(name,email,password);
         if(email,password){
             
-            toast("you are going to be registered");
+            toast("sent a verification email");
           await  createUserWithEmailAndPassword(email,password);
           await updateProfile({ displayName:name });
           alert('Updated profile');
