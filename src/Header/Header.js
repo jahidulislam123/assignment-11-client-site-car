@@ -35,7 +35,7 @@ const Header = () => {
         <div className='d-flex'> <Nav.Link as={Link} to="/manageInventory">ManageItem</Nav.Link> &&
         <Nav.Link as={Link} to="/addItem">Add Item</Nav.Link>
         &&
-        <Nav.Link as={Link} to="/blogs">My Item</Nav.Link>
+        <Nav.Link as={Link} to="/myItem">My Item</Nav.Link>
         &&
         <button className='bg-primary-button' onClick={handleSignOut}>SignOut</button>
         </div>

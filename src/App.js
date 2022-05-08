@@ -12,6 +12,7 @@ import Footer from './Pages/Footer/Footer';
 import CarDetails from './Pages/CarDetails/CarDetails';
 import ManageInventory from './Pages/ManageInventory/ManageInventory';
 import AddItem from './Pages/AddItem/AddItem';
+import MyItem from './Pages/MyItem/MyItem';
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Route path='/manageInventory' element={<RequreAuth><ManageInventory></ManageInventory></RequreAuth>}></Route>
         {/* <Route path='/manageInventory' element={<ManageInventory></ManageInventory>}></Route> */}
         <Route path='/addItem' element={<AddItem></AddItem>}></Route>
+        <Route path='/myItem' element={<MyItem></MyItem>}></Route>
       </Routes>
       <Footer></Footer>
       {/* <ManageInventory></ManageInventory> */}
