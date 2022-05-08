@@ -30,3 +30,11 @@
     font-weight: 700;
     width: 40%;
 }
+
+.d-flex-input {
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    margin: 4px;
+    border-radius: 4px;
+}

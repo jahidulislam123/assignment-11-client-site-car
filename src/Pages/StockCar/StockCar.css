@@ -1,6 +1,22 @@
 .container-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 18px;
     margin: 20px;
+}
+
+
+
+/*make service responsive */
+@media only screen and (max-width:576px) {
+    .container-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and(min-width: 577px) and (max-width:992px) {
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }

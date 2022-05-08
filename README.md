@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+## what kind of thing i used in the projectrs 
+### react router 
+### react bhootstrap 
+### firebase authentication 
+### heruku
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

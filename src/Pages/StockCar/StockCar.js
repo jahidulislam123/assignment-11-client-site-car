@@ -10,7 +10,7 @@ const StockCar = () => {
         .then(data=>setCars(data))
     },[])
     return (
-        <div>
+        <div className=''>
             <h2>The amount of Brands : {cars.length}</h2>
             <div className='container-grid'>
                 {

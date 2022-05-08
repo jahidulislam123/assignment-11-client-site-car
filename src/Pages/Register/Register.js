@@ -62,13 +62,13 @@ const Register = () => {
                    <label className={`ps-2 ${agree?'':'text-danger'}`}  >Accept genious Terms and conditions</label>
                    <input 
                    disabled={!agree}
-                className='w-50 mx-auto btn btn-primary mt-2'
-                 type="submit"
-                  value="register"
+                   className='w-50 mx-auto btn btn-primary mt-2'
+                   type="submit"
+                   value="register"
                   
                   />
                      
-               </form>
+                  </form>
                <p>
           Already have an account?  <Link to="/login" className='text-danger  pe-auto text-decoration-none' onClick={navigateLogin}> Please Login</Link>
           </p>

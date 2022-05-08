@@ -12,7 +12,7 @@ const StockCars = ({car}) => {
         navigate(`/carDetails/${_id}`);
     }
     return (
-        <div className='car-container'>
+        <div className='car-container '>
             <img src={img} alt="" />
             <h2>Name: {name}</h2>
             <h3>Price: {price}</h3>
