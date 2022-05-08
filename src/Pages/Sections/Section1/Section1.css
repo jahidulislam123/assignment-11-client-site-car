@@ -1,0 +1,21 @@
+.imgSection {
+    width: 12cm;
+    border-radius: 5px;
+}
+
+.d-flex-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 45PX;
+    margin-bottom: 45PX;
+    color: white;
+
+
+
+}
+
+.bordre-section {
+    border: 1px solid crimson;
+    background-color: rgb(42, 43, 42);
+}
