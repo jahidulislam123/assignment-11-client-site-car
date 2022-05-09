@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+
+# live site : https://lambent-narwhal-0dfeaf.netlify.app/
 ## what kind of thing i used in the projectrs 
 ### react router 
 ### react bhootstrap 
