@@ -7,7 +7,7 @@ const AddItem = () => {
         
 
         console.log(data);
-        const url =`http://localhost:5000/cars`;
+        const url =`https://assignment-11-server-site-red.vercel.app/cars`;
         fetch(url,{
             method:'POST',
             headers:{

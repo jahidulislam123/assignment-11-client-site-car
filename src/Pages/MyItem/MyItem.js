@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const MyItem = () => {
     const [myItems,setMyItem]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/cars')
+        fetch('https://assignment-11-server-site-red.vercel.app/cars')
         .then(res=>res.json())
         .then(data=>setMyItem(data));
     },[])
@@ -11,7 +11,7 @@ const MyItem = () => {
     const handleDelete =id=>{
         const procced=window.confirm('Are you sure you want to delete ?');
         if(procced){
-            const url =`http://localhost:5000/car/${id}`;
+            const url =`https://assignment-11-server-site-red.vercel.app/car/${id}`;
             fetch(url,{
                 method : 'DELETE'
             })

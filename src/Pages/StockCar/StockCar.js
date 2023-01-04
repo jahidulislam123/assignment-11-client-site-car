@@ -5,7 +5,7 @@ import './StockCar.css'
 const StockCar = () => {
     const [cars,setCars]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/cars')
+        fetch('https://assignment-11-server-site-red.vercel.app/cars')
         .then(res=>res.json())
         .then(data=>setCars(data))
     },[])

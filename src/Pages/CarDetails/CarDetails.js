@@ -8,7 +8,7 @@ const CarDetails = () => {
     
     const [isReload,setReload] = useState(false);
     useEffect(()=>{
-        const url =`http://localhost:5000/car/${carDetailsId}`
+        const url =`https://assignment-11-server-site-red.vercel.app/car/${carDetailsId}`
         fetch(url)
         .then(res=>res.json())
         .then(data=>setCars(data))
@@ -32,7 +32,7 @@ const CarDetails = () => {
         const quantity =cars?.quantity;
         // console.log(quantity);
         const updateDeliver ={quantity};
-        const url2 =`http://localhost:5000/car/${carDetailsId}`;
+        const url2 =`https://assignment-11-server-site-red.vercel.app/car/${carDetailsId}`;
         console.log(url2);
         fetch(url2,{
             method:"PUT",
@@ -66,7 +66,7 @@ const CarDetails = () => {
             alert("added")
         }
         else{
-            const url=`http://localhost:5000/car/${carDetailsId}`
+            const url=`https://assignment-11-server-site-red.vercel.app/car/${carDetailsId}`
             fetch(url,{
                 method:"PUT",
                 headers: {
@@ -94,7 +94,7 @@ const CarDetails = () => {
     //         alert('added');
     //     }
     //     else{
-    //         const url =`http://localhost:5000/car/${carDetailsId}`
+    //         const url =`https://assignment-11-server-site-red.vercel.app/car/${carDetailsId}`
     //         console.log(url);
     //         fetch(url,{
     //             method:'PUT',

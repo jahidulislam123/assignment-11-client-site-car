@@ -8,7 +8,7 @@ import './ManageInventory.css'
 const ManageInventory = () => {
     const [cars,setCars2]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/cars')
+        fetch('https://assignment-11-server-site-red.vercel.app/cars')
         .then(res=>res.json())
         .then(data=>setCars2(data))
     },[])
